@@ -1,0 +1,58 @@
+@font-face {
+  font-family: Comfortaa;
+  src: url(./fonts/Comfortaa/Comfortaa-VariableFont_wght.ttf);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3em;
+  font-family: "Comfortaa";
+}
+
+.calculator_weight {
+  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.calculator_height {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button-primary {
+  margin-top: 3em;
+  font-family: "Comfortaa";
+  font-size: 16px;
+  color: #ffffff !important;
+  padding: 15px 25px;
+  border-radius: 5px;
+  border: 2px hidden #46a5f3;
+  background: #455cad;
+  background: linear-gradient(to top, #455cad, #67d6e0);
+}
+
+.button-primary:hover {
+  color: #ffffff !important;
+  background: #455cad;
+  background: linear-gradient(to top, #67d6e0, #455cad);
+}
+
+.result {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  font-size: 1.5em;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 2.5em;
+}
+
+input {
+  line-height: 2;
+}
